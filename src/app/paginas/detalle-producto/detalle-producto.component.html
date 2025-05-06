@@ -7,7 +7,7 @@
   <p><strong>Precio:</strong> {{ producto.precio | currency:'EUR' }}</p>
   <p><strong>Stock disponible:</strong> {{ producto.stock }}</p>
   <a routerLink="/catalogo">← Volver al catálogo</a><br>
-  <a routerLink="/pago">Pgar</a>
+  <a routerLink="/pago">Pagar</a>
 </div>
 <div *ngIf="!producto" class="cargando">
   <p>Cargando producto...</p>
