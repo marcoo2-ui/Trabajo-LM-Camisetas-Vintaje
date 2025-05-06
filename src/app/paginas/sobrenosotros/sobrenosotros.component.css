@@ -1,0 +1,94 @@
+.sobre-nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.sobre-nosotros .contenido {
+  max-width: 50%;
+  padding-right: 20px;
+}
+
+.sobre-nosotros h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sobre-nosotros p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.sobre-nosotros .imagen {
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-nosotros .imagen img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.contenido {
+  flex: 1;
+  min-width: 300px;
+}
+
+.imagen {
+  flex: 1;
+  min-width: 300px;
+}
+
+.localizacion {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+}
+
+.localizacion h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.localizacion p {
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .sobre-nosotros {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-nosotros .contenido, .sobre-nosotros .imagen {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .sobre-nosotros h2 {
+    font-size: 1.8rem;
+  }
+}

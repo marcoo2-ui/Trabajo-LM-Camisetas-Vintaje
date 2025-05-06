@@ -1,0 +1,78 @@
+.detalle-producto {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.detalle-producto h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.detalle-producto img {
+  display: block;
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.detalle-producto p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.detalle-producto strong {
+  color: #333;
+}
+
+.detalle-producto .precio {
+  font-size: 1.3rem;
+  color: #f39c12;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.detalle-producto .stock {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.detalle-producto a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f39c12;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.detalle-producto a:hover {
+  background-color: #d68910;
+}
+
+/* Estilo para el estado de carga */
+.cargando {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: bold;
+  text-align: center;
+}

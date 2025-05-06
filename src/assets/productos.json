@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camiseta Argentina 1986",
+    "descripcion": "Icónica camiseta usada por Maradona durante el Mundial de México 1986.",
+    "precio": 120.00,
+    "imagen": "assets/images/images.jpg",
+    "marca": "Le Coq Sportif",
+    "stock": 4,
+    "categoria": "Camisetas Vintage",
+    "anio": 1986,
+    "equipo": "Argentina",
+    "talla": "M",
+    "esEdicionLimitada": true
+  },
+  {
+    "id": 2,
+    "nombre": "Camiseta FC Barcelona 1992",
+    "descripcion": "Camiseta con la que el Barça ganó su primera Copa de Europa en Wembley.",
+    "precio": 95.00,
+    "imagen": "/assets/images/barsa.jpeg",
+    "marca": "Kappa",
+    "stock": 8,
+    "categoria": "Camisetas Vintage",
+    "anio": 1992,
+    "equipo": "FC Barcelona",
+    "talla": "L",
+    "esEdicionLimitada": false
+  },
+  {
+    "id": 3,
+    "nombre": "Camiseta Brasil 1970",
+    "descripcion": "Camiseta del legendario equipo brasileño campeón del mundo en México 1970.",
+    "precio": 130.00,
+    "imagen": "/assets/images/brasil.jpeg",
+    "marca": "Athleta",
+    "stock": 3,
+    "categoria": "Camisetas Vintage",
+    "anio": 1970,
+    "equipo": "Brasil",
+    "talla": "S",
+    "esEdicionLimitada": true
+  },
+  {
+    "id": 4,
+    "nombre": "Camiseta AC Milan 1989",
+    "descripcion": "Camiseta del AC Milan de Van Basten, campeones de Europa en 1989.",
+    "precio": 110.00,
+    "imagen": "/assets/images/milan.jpeg",
+    "marca": "Adidas",
+    "stock": 6,
+    "categoria": "Camisetas Vintage",
+    "anio": 1989,
+    "equipo": "AC Milan",
+    "talla": "XL",
+    "esEdicionLimitada": false
+  },
+  {
+    "id": 5,
+    "nombre": "Camiseta Inglaterra 1996",
+    "descripcion": "Camiseta usada en la Eurocopa 1996, recordada por el gol de Gascoigne.",
+    "precio": 85.00,
+    "imagen": "/assets/images/ingla.jpeg",
+    "marca": "Umbro",
+    "stock": 7,
+    "categoria": "Camisetas Vintage",
+    "anio": 1996,
+    "equipo": "Inglaterra",
+    "talla": "M",
+    "esEdicionLimitada": false
+  }
+]

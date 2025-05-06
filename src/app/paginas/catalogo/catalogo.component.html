@@ -1,0 +1,12 @@
+<div class="catalogo">
+  <h2>Catálogo Camisetas Vintage</h2>
+  <div class="grid">
+    <div *ngFor="let producto of productos" class="producto-card">
+      <img [src]="producto.imagen" [alt]="producto.nombre" />
+      <h3>{{ producto.nombre }}</h3>
+      <p>{{ producto.descripcion }}</p>
+      <p><strong>Precio:</strong> {{ producto.precio | currency:'EUR' }}</p>
+      <a [routerLink]="['/detalle', producto.id]">Ver detalles</a>
+    </div>
+  </div>
+</div>
